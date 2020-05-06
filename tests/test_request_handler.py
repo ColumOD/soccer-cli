@@ -4,11 +4,11 @@ sys.path.append('soccer')
 import json
 import requests
 import unittest
-import leagueids
+from soccer import leagueids
 import mock
 from mock_response import MockResponse
 from soccer.exceptions import APIErrorException
-from request_handler import RequestHandler
+from soccer.request_handler import RequestHandler
 from soccer.writers import get_writer
 
 
